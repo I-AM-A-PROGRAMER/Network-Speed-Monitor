@@ -1,4 +1,4 @@
-package com.riyo.networkspeedmonitor.ui
+package com.riyosup.networkspeedmonitor.ui
 
 import android.Manifest
 import android.content.Context
@@ -57,27 +57,27 @@ import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
-import com.riyo.networkspeedmonitor.R
-import com.riyo.networkspeedmonitor.model.SpeedData
-import com.riyo.networkspeedmonitor.repository.SpeedMonitorRepository
-import com.riyo.networkspeedmonitor.service.NetworkSpeedMonitorService
-import com.riyo.networkspeedmonitor.ui.theme.AccentDownload
-import com.riyo.networkspeedmonitor.ui.theme.AccentDownloadContainer
-import com.riyo.networkspeedmonitor.ui.theme.AccentUpload
-import com.riyo.networkspeedmonitor.ui.theme.AccentUploadContainer
-import com.riyo.networkspeedmonitor.ui.theme.ButtonStart
-import com.riyo.networkspeedmonitor.ui.theme.ButtonStop
-import com.riyo.networkspeedmonitor.ui.theme.DarkBackground
-import com.riyo.networkspeedmonitor.ui.theme.DarkCardBorder
-import com.riyo.networkspeedmonitor.ui.theme.DarkSurface
-import com.riyo.networkspeedmonitor.ui.theme.DarkSurfaceVariant
-import com.riyo.networkspeedmonitor.ui.theme.StatusActive
-import com.riyo.networkspeedmonitor.ui.theme.StatusInactive
-import com.riyo.networkspeedmonitor.ui.theme.TextMuted
-import com.riyo.networkspeedmonitor.ui.theme.TextPrimary
-import com.riyo.networkspeedmonitor.ui.theme.TextSecondary
-import com.riyo.networkspeedmonitor.util.LiveUpdateHelper
-import com.riyo.networkspeedmonitor.util.LiveUpdateStatus
+import com.riyosup.networkspeedmonitor.R
+import com.riyosup.networkspeedmonitor.model.SpeedData
+import com.riyosup.networkspeedmonitor.repository.SpeedMonitorRepository
+import com.riyosup.networkspeedmonitor.service.NetworkSpeedMonitorService
+import com.riyosup.networkspeedmonitor.ui.theme.AccentDownload
+import com.riyosup.networkspeedmonitor.ui.theme.AccentDownloadContainer
+import com.riyosup.networkspeedmonitor.ui.theme.AccentUpload
+import com.riyosup.networkspeedmonitor.ui.theme.AccentUploadContainer
+import com.riyosup.networkspeedmonitor.ui.theme.ButtonStart
+import com.riyosup.networkspeedmonitor.ui.theme.ButtonStop
+import com.riyosup.networkspeedmonitor.ui.theme.DarkBackground
+import com.riyosup.networkspeedmonitor.ui.theme.DarkCardBorder
+import com.riyosup.networkspeedmonitor.ui.theme.DarkSurface
+import com.riyosup.networkspeedmonitor.ui.theme.DarkSurfaceVariant
+import com.riyosup.networkspeedmonitor.ui.theme.StatusActive
+import com.riyosup.networkspeedmonitor.ui.theme.StatusInactive
+import com.riyosup.networkspeedmonitor.ui.theme.TextMuted
+import com.riyosup.networkspeedmonitor.ui.theme.TextPrimary
+import com.riyosup.networkspeedmonitor.ui.theme.TextSecondary
+import com.riyosup.networkspeedmonitor.util.LiveUpdateHelper
+import com.riyosup.networkspeedmonitor.util.LiveUpdateStatus
 
 @Composable
 fun SpeedMonitorScreen(

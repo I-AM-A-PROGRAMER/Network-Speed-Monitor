@@ -1,6 +1,6 @@
-package com.riyo.networkspeedmonitor
+package com.riyosup.networkspeedmonitor
 
-import com.riyo.networkspeedmonitor.model.SpeedData
+import com.riyosup.networkspeedmonitor.model.SpeedData
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.riyo.networkspeedmonitor"
+    namespace = "com.riyosup.networkspeedmonitor"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.riyo.networkspeedmonitor"
+        applicationId = "com.riyosup.networkspeedmonitor"
         minSdk = 34
         targetSdk = 37
         versionCode = 1

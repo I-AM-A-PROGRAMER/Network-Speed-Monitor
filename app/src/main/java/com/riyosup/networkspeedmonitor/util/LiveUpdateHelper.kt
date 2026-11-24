@@ -1,4 +1,4 @@
-package com.riyo.networkspeedmonitor.util
+package com.riyosup.networkspeedmonitor.util
 
 import android.app.NotificationManager
 import android.content.Context

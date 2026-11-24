@@ -1,6 +1,6 @@
-package com.riyo.networkspeedmonitor.repository
+package com.riyosup.networkspeedmonitor.repository
 
-import com.riyo.networkspeedmonitor.model.SpeedData
+import com.riyosup.networkspeedmonitor.model.SpeedData
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

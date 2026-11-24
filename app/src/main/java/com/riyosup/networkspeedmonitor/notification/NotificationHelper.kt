@@ -1,4 +1,4 @@
-package com.riyo.networkspeedmonitor.notification
+package com.riyosup.networkspeedmonitor.notification
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -9,11 +9,11 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import androidx.core.app.NotificationCompat
-import com.riyo.networkspeedmonitor.MainActivity
-import com.riyo.networkspeedmonitor.R
-import com.riyo.networkspeedmonitor.model.SpeedData
-import com.riyo.networkspeedmonitor.service.NetworkSpeedMonitorService
-import com.riyo.networkspeedmonitor.util.SpeedIconGenerator
+import com.riyosup.networkspeedmonitor.MainActivity
+import com.riyosup.networkspeedmonitor.R
+import com.riyosup.networkspeedmonitor.model.SpeedData
+import com.riyosup.networkspeedmonitor.service.NetworkSpeedMonitorService
+import com.riyosup.networkspeedmonitor.util.SpeedIconGenerator
 import java.util.Locale
 
 class NotificationHelper(private val context: Context) {

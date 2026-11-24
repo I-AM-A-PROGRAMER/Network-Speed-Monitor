@@ -1,11 +1,11 @@
-package com.riyo.networkspeedmonitor
+package com.riyosup.networkspeedmonitor
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.riyo.networkspeedmonitor.ui.SpeedMonitorScreen
-import com.riyo.networkspeedmonitor.ui.theme.NetworkSpeedMonitorTheme
+import com.riyosup.networkspeedmonitor.ui.SpeedMonitorScreen
+import com.riyosup.networkspeedmonitor.ui.theme.NetworkSpeedMonitorTheme
 
 class MainActivity : ComponentActivity() {
 

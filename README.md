@@ -37,7 +37,7 @@ A lightweight, modern native Android application that continuously measures and 
 The project follows modern Android architecture guidelines with clean separation of concerns:
 
 ```
-app/src/main/java/com/riyo/networkspeedmonitor/
+app/src/main/java/com/riyosup/networkspeedmonitor/
 ├── MainActivity.kt               # Edge-to-edge Compose activity
 ├── model/
 │   └── SpeedData.kt              # Speed data models & monotonic math calculator

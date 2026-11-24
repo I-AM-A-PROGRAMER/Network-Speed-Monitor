@@ -1,4 +1,4 @@
-package com.riyo.networkspeedmonitor.util
+package com.riyosup.networkspeedmonitor.util
 
 import android.graphics.Bitmap
 import android.graphics.Canvas
@@ -7,7 +7,7 @@ import android.graphics.Paint
 import android.graphics.PorterDuff
 import android.graphics.Typeface
 import androidx.core.graphics.drawable.IconCompat
-import com.riyo.networkspeedmonitor.model.SpeedData
+import com.riyosup.networkspeedmonitor.model.SpeedData
 import java.util.Locale
 
 /**

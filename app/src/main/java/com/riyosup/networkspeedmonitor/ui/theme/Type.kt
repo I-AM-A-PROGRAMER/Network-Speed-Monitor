@@ -1,4 +1,4 @@
-package com.riyo.networkspeedmonitor.ui.theme
+package com.riyosup.networkspeedmonitor.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

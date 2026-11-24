@@ -1,4 +1,4 @@
-package com.riyo.networkspeedmonitor.service
+package com.riyosup.networkspeedmonitor.service
 
 import android.app.Service
 import android.content.Context
@@ -8,10 +8,10 @@ import android.os.Build
 import android.os.IBinder
 import androidx.core.app.ServiceCompat
 import androidx.core.content.ContextCompat
-import com.riyo.networkspeedmonitor.model.SpeedCalculator
-import com.riyo.networkspeedmonitor.model.SpeedData
-import com.riyo.networkspeedmonitor.notification.NotificationHelper
-import com.riyo.networkspeedmonitor.repository.SpeedMonitorRepository
+import com.riyosup.networkspeedmonitor.model.SpeedCalculator
+import com.riyosup.networkspeedmonitor.model.SpeedData
+import com.riyosup.networkspeedmonitor.notification.NotificationHelper
+import com.riyosup.networkspeedmonitor.repository.SpeedMonitorRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -28,8 +28,8 @@ import kotlinx.coroutines.launch
 class NetworkSpeedMonitorService : Service() {
 
     companion object {
-        const val ACTION_START = "com.riyo.networkspeedmonitor.ACTION_START"
-        const val ACTION_STOP = "com.riyo.networkspeedmonitor.ACTION_STOP"
+        const val ACTION_START = "com.riyosup.networkspeedmonitor.ACTION_START"
+        const val ACTION_STOP = "com.riyosup.networkspeedmonitor.ACTION_STOP"
 
         fun startService(context: Context) {
             val intent = Intent(context, NetworkSpeedMonitorService::class.java).apply {

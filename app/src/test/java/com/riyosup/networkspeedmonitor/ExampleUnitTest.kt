@@ -1,4 +1,4 @@
-package com.riyo.networkspeedmonitor
+package com.riyosup.networkspeedmonitor
 
 import org.junit.Test
 

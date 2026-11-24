@@ -1,4 +1,4 @@
-package com.riyo.networkspeedmonitor.model
+package com.riyosup.networkspeedmonitor.model
 
 import android.net.TrafficStats
 import android.os.SystemClock
